@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tabs</title>
+    <style>
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .centered-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .tabs {
+            display: flex;
+        }
+
+        .tabs-title {
+            padding: 20px;
+            background-color: #23201D;
+            color: #937341;
+            cursor: pointer;
+        }
+
+        .tabs-title:active {
+            background-color:#937341 ;
+            color: #23201D;
+        }
+
+
+    </style>
+</head>
+
+<body>
+<div class="centered-content">
+    <ul class="tabs">
+        <li class="tabs-title">
+            <span class="akali">Akali</span>
+        </li>
+        <li class="tabs-title">
+            <span class="anivia">Anivia</span>
+        </li>
+        <li class="tabs-title">
+            <span class="draven">Draven</span>
+        </li>
+        <li class="tabs-title">
+            <span class="garen">Garen</span>
+        </li>
+        <li class="tabs-title">
+            <span class="katarina">Katarina</span>
+        </li>
+    </ul>
+    <ul class="tabs-content">
+        <li class="li-content">
+
+        </li>
+    </ul>
+</div>
+<script src="js/script.js"></script>
+</body>
+
+</html>
+
+
