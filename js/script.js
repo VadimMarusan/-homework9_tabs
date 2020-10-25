@@ -1,5 +1,4 @@
-let counterTabsTitle = document.querySelectorAll('.tabs-title');
-    counterTabsTitle.forEach(tabsContentHandler);
+
 
 
 function tabsContentHandler (counterTabsTitle) {
@@ -53,5 +52,6 @@ function tabsContentHandler (counterTabsTitle) {
 
 }
 
-tabsContentHandler();
+let counterTabsTitle = document.querySelectorAll('.tabs-title');
+counterTabsTitle.forEach(tabsContentHandler);
 
